@@ -213,7 +213,7 @@ startReactor = {
         } else {
 
             startReactor.interface.endGame("fail")
-            document.getElementById("title").textContent = "Você é o impostor"
+            document.getElementById("title").textContent = "You are the Impostor! "
             setTimeout(() => {
                 document.getElementById("title").textContent = "START REACTOR"
                 startReactor.start()
